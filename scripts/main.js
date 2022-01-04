@@ -1,14 +1,14 @@
-function itemSelect() {
-    document.getElementById("demo").innerHTML = "Hello World";
-  }
-
-function computerPlay () {
-
-}
 
 //code ideas from paper algorithm
-//to return random number from array
-return Math.floor(Math.random() * number);
+// declare array with three elements
+let rpsArray = ["rock", "paper", "scissors"];
+
+//declare random element variable to select from array and print to console
+const randElem = Math.floor(Math.random() * 3);
+console.log(randElem, rpsArray[randElem]);
+
+//user inputs selection from array
+
 
 //print either "player wins" or "computer wins"
 console.log(``);
