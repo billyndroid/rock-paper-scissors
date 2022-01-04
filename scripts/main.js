@@ -13,6 +13,10 @@ console.log("the computer has selected", randElem, rpsArray[randElem]);
 
 //compare user selection (input) with computer random selection (randElem) (using if/else)
 
+if (randElem == "0" && input == "rock") {
+console.log("It's a draw, refresh to try again."); 
+}
+
 //print either "player wins" or "computer wins"
 console.log(``);
 //asks if user wants to play again
